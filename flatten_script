@@ -1,0 +1,6 @@
+mongo 127.0.0.1/myDB --eval "var c = db.detailcollection.find(); while(c.hasNext()) {printjson(c.next())}" >> test.txt
+
+mongo 127.0.0.1/myDB --eval "var c = db.employeecollection.find(); while(c.hasNext()) {printjson(c.next())}" >> test1.txt
+
+mongo 127.0.0.1/myDB --eval "var c = db.orderscollection.find(); while(c.hasNext()) {printjson(c.next())}" >> test2.txt
+
