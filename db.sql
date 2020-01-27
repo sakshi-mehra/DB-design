@@ -31,8 +31,8 @@ CREATE TABLE ORDERS (
   Salesperson  CHAR (30),
   OrderDate   DATE ,
   ResultNumber  INTEGER   NOT NULL,
-  OrderNumber  INTEGER,
   Result   CHAR(50),
   DateReported  DATE,
-  PrelimFinal  CHAR (1) ) ;
+  PrelimFinal  CHAR (1),
+  Purchase CHAR(20)) ;
 
