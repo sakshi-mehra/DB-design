@@ -1,0 +1,41 @@
+USE myDB
+myDB.detailCollection.insert(
+  {
+    id: "10725",
+    firstname: "sakshi",
+    lastname: "mehra",
+    email: "sakshimehraby@gmail.com",
+    year: "2020",
+    address: "whitefield bangalore",
+    state: "karnataka",
+    country: "india",
+    degree: "bachelor",
+    reg_date: new Date(),
+  })
+myDB.employeeCollection.insert(
+  {
+    EmployeeName : "sakshi mehra",
+    Address1: "keerthi signature",
+    Address2: "whitefield",
+    City: "bangalore",
+    State: "ka",
+    PostalCode: "560066",
+    HomePhone: "7906056397",
+    OfficeExtension: "0172",
+    HireDate: new Date(),
+    JobClassification: "ds",
+    HourSalComm: "7"
+  }) 
+myDB.ordersCollection.insert(
+  {
+    OrderNumber: "542376",
+    ClientName: "sushant singh",
+    TestOrdered: "ab",
+    Salesperson: "tanu",
+    OrderDate: new Date() ,
+    ResultNumber: "28346",
+    Result: "passed",
+    DateReported: new Date(),
+    PrelimFinal: "A"
+    Purchase: "Yes"
+   }) 
